@@ -50,47 +50,6 @@ Cpp-seminar/
 
 ---
 
-## Chapter 01 상세 설명
-
-### 기본 출력
-| 파일명 | 설명 |
-|--------|------|
-| `hello.cpp` | C++의 가장 기본적인 프로그램 구조 |
-| `HelloCpp.cpp` | `std::cout`과 `std::endl`을 사용한 출력 |
-
-### 입출력 (I/O)
-| 파일명 | 설명 |
-|--------|------|
-| `CoutSample.cpp` | `cout` 출력 스트림의 다양한 사용법 |
-| `CoutString.cpp` | 문자열을 `cout`으로 출력하는 예제 |
-| `CinString.cpp` | `cin`을 이용한 사용자 입력 처리 |
-
-### 변수와 자료형
-| 파일명 | 설명 |
-|--------|------|
-| `AutoSample.cpp` | C++11의 `auto` 키워드를 이용한 자동 타입 추론 |
-
-### 참조자 (Reference)
-| 파일명 | 설명 |
-|--------|------|
-| `ReferenceType.cpp` | 참조자의 기본 개념과 포인터와의 비교 |
-| `ReferenceSwap.cpp` | 참조자를 활용한 두 변수의 값 교환 |
-| `CallByReference.cpp` | 함수에서 Call by Reference 방식 사용 |
-| `RvalueSample.cpp` | C++11의 R-value 참조(`&&`) 개념 |
-
-### 동적 메모리 관리
-| 파일명 | 설명 |
-|--------|------|
-| `NewDataSample.cpp` | `new`와 `delete` 연산자로 메모리 할당/해제 |
-| `NewDeleteArray.cpp` | `new[]`와 `delete[]`로 배열 동적 할당 |
-
-### 반복문
-| 파일명 | 설명 |
-|--------|------|
-| `RangeBasedfor.cpp` | C++11의 범위 기반 for문 사용법 |
-
----
-
 ## 개발 환경
 
 | 항목 | 사양 |
