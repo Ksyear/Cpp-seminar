@@ -16,10 +16,10 @@ WiSoft 연구실에서 C++ 세미나를 진행하면서 공부했던 코드들�
 
 ```
 Cpp-seminar/
-├── README.md                    # 프로젝트 설명
-├── book_cover.jpg               # 참고 도서 표지 이미지
+├── README.md                       # 프로젝트 설명
+├── book_cover.jpg                  # 참고 도서 표지 이미지
 │
-└── chap01/                      # Chapter 01: C++ 기본 문법
+└── chap01/                         # Chapter 01: C++ 기본 문법
     │
     ├── 기본 출력
     │   ├── hello.cpp               # 가장 기본적인 C++ 프로그램
@@ -87,6 +87,6 @@ g++ -std=c++11 -o HelloCpp chap01/HelloCpp.cpp
 ---
 
 <p align="center">
-  <b>WiSoft Research Lab</b><br>
+  <b>WiSoft Lab</b><br>
   C++ Seminar Study Materials
 </p>
