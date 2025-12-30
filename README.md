@@ -49,29 +49,29 @@ Cpp-seminar/
 │
 └── chap02/                         # Chapter 02: 함수와 네임스페이스
     │
-    ├── 기본 매개변수 (Default Parameter)
+    ├── 기본 매개변수 
     │   ├── DefaultParam.cpp        # 기본 매개변수 사용법
     │   └── DefaultParam2.cpp       # 기본 매개변수 응용 예제
     │
-    ├── 함수 오버로딩 (Function Overloading)
+    ├── 함수 오버로딩 
     │   ├── FuncPoly.cpp            # 함수 다형성 (오버로딩) 예제
     │   └── FuncAmbiguity.cpp       # 함수 오버로딩 모호성 문제
     │
-    ├── 함수 템플릿 (Function Template)
+    ├── 함수 템플릿 
     │   ├── FuncTemplate1.cpp       # 함수 템플릿 기본 사용법
     │   └── FuncTemplate2.cpp       # 함수 템플릿 응용 예제
     │
-    ├── 인라인 함수 (Inline Function)
+    ├── 인라인 함수 
     │   └── InlineSample.cpp        # inline 키워드 사용법
     │
-    ├── 식별자 검색 순서 (Identifier Search Sequence)
+    ├── 식별자 검색 순서 
     │   ├── IdSearchSeq1.cpp        # 지역 변수 우선
     │   ├── IdSearchSeq2.cpp        # 전역 변수 검색
     │   ├── IdSearchSeq3.cpp        # 네임스페이스 검색
     │   ├── IdSearchSeq4.cpp        # using 선언 검색
     │   └── IdSearchSeq5.cpp        # 검색 순서 종합 예제
     │
-    └── 네임스페이스 (Namespace)
+    └── 네임스페이스 
         ├── NamespaceSample.cpp     # 네임스페이스 기본 사용법
         ├── NamespaceUsing.cpp      # using 선언/지시문
         ├── NamespaceNested.cpp     # 중첩 네임스페이스
