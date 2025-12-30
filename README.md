@@ -19,33 +19,63 @@ Cpp-seminar/
 ├── README.md                       # 프로젝트 설명
 ├── book_cover.jpg                  # 참고 도서 표지 이미지
 │
-└── chap01/                         # Chapter 01: C++ 기본 문법
+├── chap01/                         # Chapter 01: C++ 기본 문법
+│   │
+│   ├── 기본 출력
+│   │   ├── hello.cpp               # 가장 기본적인 C++ 프로그램
+│   │   └── HelloCpp.cpp            # std::cout을 사용한 Hello World
+│   │
+│   ├── 입출력 (I/O)
+│   │   ├── CoutSample.cpp          # cout 출력 스트림 사용법
+│   │   ├── CoutString.cpp          # 문자열 출력 예제
+│   │   └── CinString.cpp           # cin 입력 스트림 사용법
+│   │
+│   ├── 변수와 자료형
+│   │   ├── AutoSample.cpp          # auto 키워드 (자동 타입 추론)
+│   │   └── CountSample             # 카운트 예제 (컴파일된 파일)
+│   │
+│   ├── 참조자 (Reference)
+│   │   ├── ReferenceType.cpp       # 참조자 기본 개념 및 사용법
+│   │   ├── ReferenceSwap.cpp       # 참조자를 이용한 값 교환
+│   │   ├── CallByReference.cpp     # Call by Reference 개념
+│   │   └── RvalueSample.cpp        # R-value 참조 (C++11)
+│   │
+│   ├── 동적 메모리 관리
+│   │   ├── NewDataSample.cpp       # new/delete 연산자 기본 사용법
+│   │   └── NewDeleteArray.cpp      # 배열의 동적 할당 및 해제
+│   │
+│   └── 반복문
+│       └── RangeBasedfor.cpp       # 범위 기반 for문 (C++11)
+│
+└── chap02/                         # Chapter 02: 함수와 네임스페이스
     │
-    ├── 기본 출력
-    │   ├── hello.cpp               # 가장 기본적인 C++ 프로그램
-    │   └── HelloCpp.cpp            # std::cout을 사용한 Hello World
+    ├── 기본 매개변수 (Default Parameter)
+    │   ├── DefaultParam.cpp        # 기본 매개변수 사용법
+    │   └── DefaultParam2.cpp       # 기본 매개변수 응용 예제
     │
-    ├── 입출력 (I/O)
-    │   ├── CoutSample.cpp          # cout 출력 스트림 사용법
-    │   ├── CoutString.cpp          # 문자열 출력 예제
-    │   └── CinString.cpp           # cin 입력 스트림 사용법
+    ├── 함수 오버로딩 (Function Overloading)
+    │   ├── FuncPoly.cpp            # 함수 다형성 (오버로딩) 예제
+    │   └── FuncAmbiguity.cpp       # 함수 오버로딩 모호성 문제
     │
-    ├── 변수와 자료형
-    │   ├── AutoSample.cpp          # auto 키워드 (자동 타입 추론)
-    │   └── CountSample             # 카운트 예제 (컴파일된 파일)
+    ├── 함수 템플릿 (Function Template)
+    │   ├── FuncTemplate1.cpp       # 함수 템플릿 기본 사용법
+    │   └── FuncTemplate2.cpp       # 함수 템플릿 응용 예제
     │
-    ├── 참조자 (Reference)
-    │   ├── ReferenceType.cpp       # 참조자 기본 개념 및 사용법
-    │   ├── ReferenceSwap.cpp       # 참조자를 이용한 값 교환
-    │   ├── CallByReference.cpp     # Call by Reference 개념
-    │   └── RvalueSample.cpp        # R-value 참조 (C++11)
+    ├── 인라인 함수 (Inline Function)
+    │   └── InlineSample.cpp        # inline 키워드 사용법
     │
-    ├── 동적 메모리 관리
-    │   ├── NewDataSample.cpp       # new/delete 연산자 기본 사용법
-    │   └── NewDeleteArray.cpp      # 배열의 동적 할당 및 해제
+    ├── 식별자 검색 순서 (Identifier Search Sequence)
+    │   ├── IdSearchSeq1.cpp        # 지역 변수 우선
+    │   ├── IdSearchSeq2.cpp        # 전역 변수 검색
+    │   ├── IdSearchSeq3.cpp        # 네임스페이스 검색
+    │   ├── IdSearchSeq4.cpp        # using 선언 검색
+    │   └── IdSearchSeq5.cpp        # 검색 순서 종합 예제
     │
-    └── 반복문
-        └── RangeBasedfor.cpp       # 범위 기반 for문 (C++11)
+    └── 네임스페이스 (Namespace)
+        ├── NamespaceSample.cpp     # 네임스페이스 기본 사용법
+        ├── NamespaceUsing.cpp      # using 선언/지시문
+        ├── NamespaceNested.cpp     # 중첩 네임스페이스
+        └── NamespaceOver.cpp       # 네임스페이스 확장
 ```
 
 ---
