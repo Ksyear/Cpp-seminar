@@ -47,35 +47,60 @@ Cpp-seminar/
 │   └── 반복문
 │       └── RangeBasedfor.cpp       # 범위 기반 for문 (C++11)
 │
-└── chap02/                         # Chapter 02: 함수와 네임스페이스
+├── chap02/                         # Chapter 02: 함수와 네임스페이스
+│   │
+│   ├── 기본 매개변수 
+│   │   ├── DefaultParam.cpp        # 기본 매개변수 사용법
+│   │   └── DefaultParam2.cpp       # 기본 매개변수 응용 예제
+│   │
+│   ├── 함수 오버로딩 
+│   │   ├── FuncPoly.cpp            # 함수 다형성 (오버로딩) 예제
+│   │   └── FuncAmbiguity.cpp       # 함수 오버로딩 모호성 문제
+│   │
+│   ├── 함수 템플릿 
+│   │   ├── FuncTemplate1.cpp       # 함수 템플릿 기본 사용법
+│   │   └── FuncTemplate2.cpp       # 함수 템플릿 응용 예제
+│   │
+│   ├── 인라인 함수 
+│   │   └── InlineSample.cpp        # inline 키워드 사용법
+│   │
+│   ├── 식별자 검색 순서 
+│   │   ├── IdSearchSeq1.cpp        # 지역 변수 우선
+│   │   ├── IdSearchSeq2.cpp        # 전역 변수 검색
+│   │   ├── IdSearchSeq3.cpp        # 네임스페이스 검색
+│   │   ├── IdSearchSeq4.cpp        # using 선언 검색
+│   │   └── IdSearchSeq5.cpp        # 검색 순서 종합 예제
+│   │
+│   └── 네임스페이스 
+│       ├── NamespaceSample.cpp     # 네임스페이스 기본 사용법
+│       ├── NamespaceUsing.cpp      # using 선언/지시문
+│       ├── NamespaceNested.cpp     # 중첩 네임스페이스
+│       └── NamespaceOver.cpp       # 네임스페이스 확장
+│
+└── chap03/                         # Chapter 03: 클래스 (~ 3.3)
     │
-    ├── 기본 매개변수 
-    │   ├── DefaultParam.cpp        # 기본 매개변수 사용법
-    │   └── DefaultParam2.cpp       # 기본 매개변수 응용 예제
+    ├── OOP 소개 (절차지향 vs 객체지향)
+    │   ├── Hello00P1.c             # C 스타일 절차지향 예제 1
+    │   ├── Hello00P2.c             # C 스타일 절차지향 예제 2
+    │   ├── Hello00P3.c             # C 스타일 절차지향 예제 3
+    │   └── Hello00P.cpp            # C++ 객체지향 변환 예제
     │
-    ├── 함수 오버로딩 
-    │   ├── FuncPoly.cpp            # 함수 다형성 (오버로딩) 예제
-    │   └── FuncAmbiguity.cpp       # 함수 오버로딩 모호성 문제
+    ├── 접근 제어 
+    │   ├── AccessCtrl.cpp          # public/private 접근 제어자
+    │   └── ClassNew.cpp            # 동적 객체 생성 (new/delete)
     │
-    ├── 함수 템플릿 
-    │   ├── FuncTemplate1.cpp       # 함수 템플릿 기본 사용법
-    │   └── FuncTemplate2.cpp       # 함수 템플릿 응용 예제
-    │
-    ├── 인라인 함수 
-    │   └── InlineSample.cpp        # inline 키워드 사용법
-    │
-    ├── 식별자 검색 순서 
-    │   ├── IdSearchSeq1.cpp        # 지역 변수 우선
-    │   ├── IdSearchSeq2.cpp        # 전역 변수 검색
-    │   ├── IdSearchSeq3.cpp        # 네임스페이스 검색
-    │   ├── IdSearchSeq4.cpp        # using 선언 검색
-    │   └── IdSearchSeq5.cpp        # 검색 순서 종합 예제
-    │
-    └── 네임스페이스 
-        ├── NamespaceSample.cpp     # 네임스페이스 기본 사용법
-        ├── NamespaceUsing.cpp      # using 선언/지시문
-        ├── NamespaceNested.cpp     # 중첩 네임스페이스
-        └── NamespaceOver.cpp       # 네임스페이스 확장
+    └── 생성자와 소멸자 
+        ├── Constructor1.cpp        # 생성자 기본 개념
+        ├── Constructor2.cpp        # 생성자 응용
+        ├── ConstructorOver1.cpp    # 생성자 오버로딩 1
+        ├── ConstructorOver2.cpp    # 생성자 오버로딩 2
+        ├── ExpDefaultConstructor.cpp # 명시적 기본 생성자
+        ├── MemberInit1.cpp         # 멤버 초기화 리스트 1
+        ├── MemberInit2.cpp         # 멤버 초기화 리스트 2
+        ├── MemberInit3.cpp         # 멤버 초기화 리스트 3
+        ├── MemberInit4.cpp         # 멤버 초기화 리스트 4
+        ├── MemberInit5.cpp         # 멤버 초기화 리스트 5
+        └── RefSample.cpp           # 참조자 멤버 초기화
 ```
 
 ---
