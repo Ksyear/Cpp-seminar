@@ -124,36 +124,57 @@ Cpp-seminar/
 │           ├── MyString.cpp           # 구현 파일
 │           └── StringCtrlSample.cpp   # 테스트 메인
 │
-└── chap04/                            # Chapter 04: 복사 생성자와 형변환
+├── chap04/                            # Chapter 04: 복사 생성자와 형변환
+│   │
+│   ├── 형변환 
+│   │   ├── AutoTypecast.cpp           # 자동 형변환 예제
+│   │   └── ImTypeCast.cpp             # 암시적 형변환 예제
+│   │
+│   ├── 복사 생성자 
+│   │   ├── CopyConstructor1.cpp       # 복사 생성자 기본 개념
+│   │   ├── CopyConstructor2.cpp       # 복사 생성자 응용
+│   │   ├── ShallowCopy.cpp            # 얕은 복사 예제
+│   │   ├── ShallowCopy2.cpp           # 얕은 복사 심화 예제
+│   │   └── BadShallowCopy.cpp         # 얕은 복사의 문제점
+│   │
+│   ├── R-value 참조 
+│   │   ├── RvalueRef1.cpp             # R-value 참조 기본
+│   │   ├── RvalueRef2.cpp             # R-value 참조 응용 1
+│   │   └── RvalueRef3.cpp             # R-value 참조 응용 2
+│   │
+│   ├── 이동 시맨틱스 
+│   │   ├── MoveSemantics.cpp          # 이동 시맨틱스 예제
+│   │   └── TempObject.cpp             # 임시 객체와 이동
+│   │
+│   ├── 함수와 클래스 
+│   │   └── FunctionAndClass.cpp       # 함수와 클래스 상호작용
+│   │
+│   └── 실습 
+│       └── StringCtrlSample/          # MyString 클래스 확장
+│           ├── MyString.h             # 헤더 파일
+│           ├── MyString.cpp           # 구현 파일 (복사/이동 생성자 포함)
+│           └── StringCtrlSample.cpp   # 테스트 메인
+│
+└── chap05/                            # Chapter 05: 연산자 오버로딩
     │
-    ├── 형변환 
-    │   ├── AutoTypecast.cpp           # 자동 형변환 예제
-    │   └── ImTypeCast.cpp             # 암시적 형변환 예제
+    ├── 산술 연산자 오버로딩 
+    │   └── OperOverArithmetic.cpp     # + 연산자 오버로딩 예제
     │
-    ├── 복사 생성자 
-    │   ├── CopyConstructor1.cpp       # 복사 생성자 기본 개념
-    │   ├── CopyConstructor2.cpp       # 복사 생성자 응용
-    │   ├── ShallowCopy.cpp            # 얕은 복사 예제
-    │   ├── ShallowCopy2.cpp           # 얕은 복사 심화 예제
-    │   └── BadShallowCopy.cpp         # 얕은 복사의 문제점
+    ├── 대입 연산자 오버로딩 
+    │   ├── OperOverAssign.cpp         # = 연산자 오버로딩 기본
+    │   ├── OperOverAssignComplex.cpp  # += 복합 대입 연산자
+    │   └── OperOverAssignMove.cpp     # 이동 대입 연산자 (&&)
     │
-    ├── R-value 참조 
-    │   ├── RvalueRef1.cpp             # R-value 참조 기본
-    │   ├── RvalueRef2.cpp             # R-value 참조 응용 1
-    │   └── RvalueRef3.cpp             # R-value 참조 응용 2
+    ├── 배열 인덱스 연산자 오버로딩 
+    │   └── OperOverArray.cpp          # [] 연산자 오버로딩
     │
-    ├── 이동 시맨틱스 
-    │   ├── MoveSemantics.cpp          # 이동 시맨틱스 예제
-    │   └── TempObject.cpp             # 임시 객체와 이동
-    │
-    ├── 함수와 클래스 
-    │   └── FunctionAndClass.cpp       # 함수와 클래스 상호작용
+    ├── 증감 연산자 오버로딩 
+    │   └── OperOverIncrement.cpp      # ++/-- 전위/후위 연산자
     │
     └── 실습 
-        └── StringCtrlSample/          # MyString 클래스 확장
-            ├── MyString.h             # 헤더 파일
-            ├── MyString.cpp           # 구현 파일 (복사/이동 생성자 포함)
-            └── StringCtrlSample.cpp   # 테스트 메인
+        ├── practice3/StringCtrlSample/  # MyString 실습 3
+        ├── practice4/StringCtrlSample/  # MyString 실습 4
+        └── practice5/StringCtrlSample/  # MyString 실습 5
 ```
 
 ---
