@@ -155,26 +155,43 @@ Cpp-seminar/
 │           ├── MyString.cpp           # 구현 파일 (복사/이동 생성자 포함)
 │           └── StringCtrlSample.cpp   # 테스트 메인
 │
-└── chap05/                            # Chapter 05: 연산자 오버로딩
+├── chap05/                            # Chapter 05: 연산자 오버로딩
+│   │
+│   ├── 산술 연산자 오버로딩 
+│   │   └── OperOverArithmetic.cpp     # + 연산자 오버로딩 예제
+│   │
+│   ├── 대입 연산자 오버로딩 
+│   │   ├── OperOverAssign.cpp         # = 연산자 오버로딩 기본
+│   │   ├── OperOverAssignComplex.cpp  # += 복합 대입 연산자
+│   │   └── OperOverAssignMove.cpp     # 이동 대입 연산자 (&&)
+│   │
+│   ├── 배열 인덱스 연산자 오버로딩 
+│   │   └── OperOverArray.cpp          # [] 연산자 오버로딩
+│   │
+│   ├── 증감 연산자 오버로딩 
+│   │   └── OperOverIncrement.cpp      # ++/-- 전위/후위 연산자
+│   │
+│   └── 실습 
+│       ├── practice3/StringCtrlSample/  # MyString 실습 3
+│       ├── practice4/StringCtrlSample/  # MyString 실습 4
+│       └── practice5/StringCtrlSample/  # MyString 실습 5
+│
+└── chap06/                            # Chapter 06: 상속
     │
-    ├── 산술 연산자 오버로딩 
-    │   └── OperOverArithmetic.cpp     # + 연산자 오버로딩 예제
+    ├── 상속 기본 
+    │   └── InheritSample.cpp          # 상속 기본 개념 예제
     │
-    ├── 대입 연산자 오버로딩 
-    │   ├── OperOverAssign.cpp         # = 연산자 오버로딩 기본
-    │   ├── OperOverAssignComplex.cpp  # += 복합 대입 연산자
-    │   └── OperOverAssignMove.cpp     # 이동 대입 연산자 (&&)
+    ├── 상속과 생성자 
+    │   ├── InheriAndConstructor1.cpp  # 상속과 생성자 기본
+    │   └── InheritAndConstructor2.cpp # 상속과 생성자 응용
     │
-    ├── 배열 인덱스 연산자 오버로딩 
-    │   └── OperOverArray.cpp          # [] 연산자 오버로딩
-    │
-    ├── 증감 연산자 오버로딩 
-    │   └── OperOverIncrement.cpp      # ++/-- 전위/후위 연산자
+    ├── 메서드 오버라이딩 
+    │   ├── MethodOver1.cpp            # 메서드 오버라이딩 기본
+    │   └── MethodOver2.cpp            # 메서드 오버라이딩 응용
     │
     └── 실습 
-        ├── practice3/StringCtrlSample/  # MyString 실습 3
-        ├── practice4/StringCtrlSample/  # MyString 실습 4
-        └── practice5/StringCtrlSample/  # MyString 실습 5
+        ├── practice6/StringCtrlSample/  # MyString 실습 6
+        └── practice7/StringCtrlSample/  # MyString 실습 7
 ```
 
 ---
