@@ -183,7 +183,8 @@ Cpp-seminar/
     │
     ├── 상속과 생성자 
     │   ├── InheriAndConstructor1.cpp  # 상속과 생성자 기본
-    │   └── InheritAndConstructor2.cpp # 상속과 생성자 응용
+    │   ├── InheritAndConstructor2.cpp # 상속과 생성자 응용
+    │   └── SeletConstructor.cpp       # 생성자 선택 예제
     │
     ├── 메서드 오버라이딩 
     │   ├── MethodOver1.cpp            # 메서드 오버라이딩 기본
@@ -191,7 +192,8 @@ Cpp-seminar/
     │
     └── 실습 
         ├── practice6/StringCtrlSample/  # MyString 실습 6
-        └── practice7/StringCtrlSample/  # MyString 실습 7
+        ├── practice7/StringCtrlSample/  # MyString 실습 7
+        └── practice8/StringCtrlSample/  # MyString 실습 8
 ```
 
 ---
