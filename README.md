@@ -176,24 +176,43 @@ Cpp-seminar/
 │       ├── practice4/StringCtrlSample/  # MyString 실습 4
 │       └── practice5/StringCtrlSample/  # MyString 실습 5
 │
-└── chap06/                            # Chapter 06: 상속
+├── chap06/                            # Chapter 06: 상속
+│   │
+│   ├── 상속 기본 
+│   │   └── InheritSample.cpp          # 상속 기본 개념 예제
+│   │
+│   ├── 상속과 생성자 
+│   │   ├── InheriAndConstructor1.cpp  # 상속과 생성자 기본
+│   │   ├── InheritAndConstructor2.cpp # 상속과 생성자 응용
+│   │   └── SeletConstructor.cpp       # 생성자 선택 예제
+│   │
+│   ├── 메서드 오버라이딩 
+│   │   ├── MethodOver1.cpp            # 메서드 오버라이딩 기본
+│   │   └── MethodOver2.cpp            # 메서드 오버라이딩 응용
+│   │
+│   └── 실습 
+│       ├── practice6/StringCtrlSample/  # MyString 실습 6
+│       ├── practice7/StringCtrlSample/  # MyString 실습 7
+│       └── practice8/StringCtrlSample/  # MyString 실습 8
+│
+└── chap07/                            # Chapter 07: 가상 함수와 다형성
     │
-    ├── 상속 기본 
-    │   └── InheritSample.cpp          # 상속 기본 개념 예제
+    ├── 바인딩 
+    │   ├── EarlyBinding.cpp           # 정적 바인딩 (Early Binding)
+    │   └── LateBinding.cpp            # 동적 바인딩 (Late Binding)
     │
-    ├── 상속과 생성자 
-    │   ├── InheriAndConstructor1.cpp  # 상속과 생성자 기본
-    │   ├── InheritAndConstructor2.cpp # 상속과 생성자 응용
-    │   └── SeletConstructor.cpp       # 생성자 선택 예제
+    ├── 가상 함수 
+    │   ├── VirtualFunction.cpp        # 가상 함수 기본
+    │   ├── vTableSample.cpp           # 가상 함수 테이블 예제
+    │   └── VirtualDestructor.cpp      # 가상 소멸자
     │
-    ├── 메서드 오버라이딩 
-    │   ├── MethodOver1.cpp            # 메서드 오버라이딩 기본
-    │   └── MethodOver2.cpp            # 메서드 오버라이딩 응용
+    ├── 순수 가상 함수와 추상 클래스 
+    │   ├── PureVirtualSample.cpp      # 순수 가상 함수 예제
+    │   ├── AdtSample.cpp              # 추상 데이터 타입 예제
+    │   └── InterfaceSample.cpp        # 인터페이스 구현 예제
     │
     └── 실습 
-        ├── practice6/StringCtrlSample/  # MyString 실습 6
-        ├── practice7/StringCtrlSample/  # MyString 실습 7
-        └── practice8/StringCtrlSample/  # MyString 실습 8
+        └── practice9/StringCtrlSample/  # MyString 실습 9
 ```
 
 ---
