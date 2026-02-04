@@ -211,6 +211,20 @@ Cpp-seminar/
     │   ├── AdtSample.cpp              # 추상 데이터 타입 예제
     │   └── InterfaceSample.cpp        # 인터페이스 구현 예제
     │
+    ├── 다중 상속 
+    │   ├── MultiInherit1.cpp          # 다중 상속 기본
+    │   ├── MultiInherit2.cpp          # 다중 상속 응용
+    │   ├── MultiInheritinterface.cpp  # 다중 상속 인터페이스
+    │   └── InheritOperOver.cpp        # 상속과 연산자 오버로딩
+    │
+    ├── 가상 상속 
+    │   ├── VirtualInherit1.cpp        # 가상 상속 기본
+    │   └── VirtualInherit2.cpp        # 가상 상속 응용
+    │
+    ├── 형변환 
+    │   ├── CastSample1.cpp            # 형변환 기본
+    │   └── CastSample2.cpp            # 형변환 응용
+    │
     └── 실습 
         └── practice9/StringCtrlSample/  # MyString 실습 9
 ```
