@@ -195,38 +195,43 @@ Cpp-seminar/
 │       ├── practice7/StringCtrlSample/  # MyString 실습 7
 │       └── practice8/StringCtrlSample/  # MyString 실습 8
 │
-└── chap07/                            # Chapter 07: 가상 함수와 다형성
+├── chap07/                            # Chapter 07: 가상 함수와 다형성
+│   │
+│   ├── 바인딩 
+│   │   ├── EarlyBinding.cpp           # 정적 바인딩 (Early Binding)
+│   │   └── LateBinding.cpp            # 동적 바인딩 (Late Binding)
+│   │
+│   ├── 가상 함수 
+│   │   ├── VirtualFunction.cpp        # 가상 함수 기본
+│   │   ├── vTableSample.cpp           # 가상 함수 테이블 예제
+│   │   └── VirtualDestructor.cpp      # 가상 소멸자
+│   │
+│   ├── 순수 가상 함수와 추상 클래스 
+│   │   ├── PureVirtualSample.cpp      # 순수 가상 함수 예제
+│   │   ├── AdtSample.cpp              # 추상 데이터 타입 예제
+│   │   └── InterfaceSample.cpp        # 인터페이스 구현 예제
+│   │
+│   ├── 다중 상속 
+│   │   ├── MultiInherit1.cpp          # 다중 상속 기본
+│   │   ├── MultiInherit2.cpp          # 다중 상속 응용
+│   │   ├── MultiInheritinterface.cpp  # 다중 상속 인터페이스
+│   │   └── InheritOperOver.cpp        # 상속과 연산자 오버로딩
+│   │
+│   ├── 가상 상속 
+│   │   ├── VirtualInherit1.cpp        # 가상 상속 기본
+│   │   └── VirtualInherit2.cpp        # 가상 상속 응용
+│   │
+│   ├── 형변환 
+│   │   ├── CastSample1.cpp            # 형변환 기본
+│   │   └── CastSample2.cpp            # 형변환 응용
+│   │
+│   └── 실습 
+│       └── practice9/StringCtrlSample/  # MyString 실습 9
+│
+└── chap08/                            # Chapter 08: 프렌드
     │
-    ├── 바인딩 
-    │   ├── EarlyBinding.cpp           # 정적 바인딩 (Early Binding)
-    │   └── LateBinding.cpp            # 동적 바인딩 (Late Binding)
-    │
-    ├── 가상 함수 
-    │   ├── VirtualFunction.cpp        # 가상 함수 기본
-    │   ├── vTableSample.cpp           # 가상 함수 테이블 예제
-    │   └── VirtualDestructor.cpp      # 가상 소멸자
-    │
-    ├── 순수 가상 함수와 추상 클래스 
-    │   ├── PureVirtualSample.cpp      # 순수 가상 함수 예제
-    │   ├── AdtSample.cpp              # 추상 데이터 타입 예제
-    │   └── InterfaceSample.cpp        # 인터페이스 구현 예제
-    │
-    ├── 다중 상속 
-    │   ├── MultiInherit1.cpp          # 다중 상속 기본
-    │   ├── MultiInherit2.cpp          # 다중 상속 응용
-    │   ├── MultiInheritinterface.cpp  # 다중 상속 인터페이스
-    │   └── InheritOperOver.cpp        # 상속과 연산자 오버로딩
-    │
-    ├── 가상 상속 
-    │   ├── VirtualInherit1.cpp        # 가상 상속 기본
-    │   └── VirtualInherit2.cpp        # 가상 상속 응용
-    │
-    ├── 형변환 
-    │   ├── CastSample1.cpp            # 형변환 기본
-    │   └── CastSample2.cpp            # 형변환 응용
-    │
-    └── 실습 
-        └── practice9/StringCtrlSample/  # MyString 실습 9
+    └── 프렌드 함수 
+        └── FriendFunction.cpp         # friend 함수 예제
 ```
 
 ---
