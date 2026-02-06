@@ -228,10 +228,18 @@ Cpp-seminar/
 │   └── 실습 
 │       └── practice9/StringCtrlSample/  # MyString 실습 9
 │
-└── chap08/                            # Chapter 08: 프렌드
+└── chap08/                            # Chapter 08: 프렌드와 클래스 관계
     │
-    └── 프렌드 함수 
-        └── FriendFunction.cpp         # friend 함수 예제
+    ├── 프렌드 (Friend)
+    │   ├── FriendFunction.cpp         # friend 함수 예제
+    │   └── FriendClass.cpp            # friend 클래스 예제
+    │
+    ├── 클래스 관계 
+    │   ├── AggregationSample.cpp      # 집합(Aggregation) 관계 예제
+    │   └── CompositionSample.cpp      # 합성(Composition) 관계 예제
+    │
+    └── 실습 
+        └── practice10/StringCtrlSample/  # MyString 실습 10
 ```
 
 ---
