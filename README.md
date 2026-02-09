@@ -228,18 +228,34 @@ Cpp-seminar/
 │   └── 실습 
 │       └── practice9/StringCtrlSample/  # MyString 실습 9
 │
-└── chap08/                            # Chapter 08: 프렌드와 클래스 관계
+├── chap08/                            # Chapter 08: 프렌드와 클래스 관계
+│   │
+│   ├── 프렌드 (Friend)
+│   │   ├── FriendFunction.cpp         # friend 함수 예제
+│   │   └── FriendClass.cpp            # friend 클래스 예제
+│   │
+│   ├── 클래스 관계 
+│   │   ├── AggregationSample.cpp      # 집합(Aggregation) 관계 예제
+│   │   └── CompositionSample.cpp      # 합성(Composition) 관계 예제
+│   │
+│   └── 실습 
+│       └── practice10/StringCtrlSample/  # MyString 실습 10
+│
+└── chap09/                            # Chapter 09: 템플릿
     │
-    ├── 프렌드 (Friend)
-    │   ├── FriendFunction.cpp         # friend 함수 예제
-    │   └── FriendClass.cpp            # friend 클래스 예제
+    ├── 함수 템플릿 
+    │   └── TemplateFunction.cpp       # 함수 템플릿 기본 예제
     │
-    ├── 클래스 관계 
-    │   ├── AggregationSample.cpp      # 집합(Aggregation) 관계 예제
-    │   └── CompositionSample.cpp      # 합성(Composition) 관계 예제
+    ├── 클래스 템플릿 
+    │   ├── TemplateSample.cpp         # 클래스 템플릿 기본 예제
+    │   ├── TemplateMember.cpp         # 템플릿 멤버 함수 예제
+    │   └── TemplateParam.cpp          # 템플릿 매개변수 예제
     │
-    └── 실습 
-        └── practice10/StringCtrlSample/  # MyString 실습 10
+    ├── 템플릿 특수화 
+    │   └── TemplateSpecial.cpp        # 템플릿 특수화 예제
+    │
+    └── 템플릿 배열 
+        └── TemplateArray.cpp          # 템플릿 배열 클래스 예제
 ```
 
 ---
