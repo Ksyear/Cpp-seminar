@@ -241,7 +241,7 @@ Cpp-seminar/
 │   └── 실습 
 │       └── practice10/StringCtrlSample/  # MyString 실습 10
 │
-└── chap09/                            # Chapter 09: 템플릿
+└── chap09/                            # Chapter 09: 템플릿과 스마트 포인터
     │
     ├── 함수 템플릿 
     │   └── TemplateFunction.cpp       # 함수 템플릿 기본 예제
@@ -254,8 +254,18 @@ Cpp-seminar/
     ├── 템플릿 특수화 
     │   └── TemplateSpecial.cpp        # 템플릿 특수화 예제
     │
-    └── 템플릿 배열 
-        └── TemplateArray.cpp          # 템플릿 배열 클래스 예제
+    ├── 템플릿 배열 
+    │   └── TemplateArray.cpp          # 템플릿 배열 클래스 예제
+    │
+    ├── 템플릿 상속 
+    │   └── TemplateInherit.cpp        # 템플릿 클래스 상속 예제
+    │
+    └── 스마트 포인터 
+        ├── AutoPtrSample1.cpp         # auto_ptr 기본 예제
+        ├── AutoPtrSample2.cpp         # auto_ptr 응용 예제
+        ├── UniquePtrSample.cpp        # unique_ptr 예제 (C++11)
+        ├── SharedPtrSample.cpp        # shared_ptr 예제 (C++11)
+        └── SharedPtrArray.cpp         # shared_ptr 배열 관리 예제
 ```
 
 ---
