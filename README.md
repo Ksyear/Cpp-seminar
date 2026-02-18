@@ -267,22 +267,30 @@ Cpp-seminar/
 │       ├── SharedPtrSample.cpp        # shared_ptr 예제 (C++11)
 │       └── SharedPtrArray.cpp         # shared_ptr 배열 관리 예제
 │
-└── chap10/                            # Chapter 10: 예외 처리
+├── chap10/                            # Chapter 10: 예외 처리
+│   │
+│   ├── 예외 처리 기본 
+│   │   ├── ExceptSample1.cpp          # 예외 처리 기본 예제 1
+│   │   ├── ExceptSample2.cpp          # 예외 처리 기본 예제 2
+│   │   └── ExceptSample3.cpp          # 예외 처리 기본 예제 3
+│   │
+│   ├── 예외 클래스 
+│   │   ├── ExceptClass.cpp            # 사용자 정의 예외 클래스
+│   │   └── Multicatch.cpp             # 다중 catch 블록 예제
+│   │
+│   ├── 예외와 스택 
+│   │   └── ExceptStack.cpp            # 스택 풀기(Stack Unwinding) 예제
+│   │
+│   └── 예외와 메모리 
+│       └── ExceptAlloc.cpp            # 메모리 할당 예외 처리
+│
+└── chap12/                            # Chapter 12: STL (Standard Template Library)
     │
-    ├── 예외 처리 기본 
-    │   ├── ExceptSample1.cpp          # 예외 처리 기본 예제 1
-    │   ├── ExceptSample2.cpp          # 예외 처리 기본 예제 2
-    │   └── ExceptSample3.cpp          # 예외 처리 기본 예제 3
+    ├── STL 문자열 
+    │   └── StlStringSample.cpp        # STL string 클래스 사용 예제
     │
-    ├── 예외 클래스 
-    │   ├── ExceptClass.cpp            # 사용자 정의 예외 클래스
-    │   └── Multicatch.cpp             # 다중 catch 블록 예제
-    │
-    ├── 예외와 스택 
-    │   └── ExceptStack.cpp            # 스택 풀기(Stack Unwinding) 예제
-    │
-    └── 예외와 메모리 
-        └── ExceptAlloc.cpp            # 메모리 할당 예외 처리
+    └── STL 벡터 
+        └── StlVectorSample.cpp        # STL vector 컨테이너 사용 예제
 ```
 
 ---
