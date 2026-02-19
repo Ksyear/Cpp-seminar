@@ -289,8 +289,20 @@ Cpp-seminar/
     ├── STL 문자열 
     │   └── StlStringSample.cpp        # STL string 클래스 사용 예제
     │
-    └── STL 벡터 
-        └── StlVectorSample.cpp        # STL vector 컨테이너 사용 예제
+    ├── STL 벡터 
+    │   └── StlVectorSample.cpp        # STL vector 컨테이너 사용 예제
+    │
+    ├── 함수 객체 
+    │   ├── FunctionObject.cpp         # 함수 객체 기본 예제
+    │   └── FuncObjSort.cpp            # 함수 객체를 이용한 정렬
+    │
+    ├── 람다 (Lambda)
+    │   ├── LamdaSample.cpp            # 람다 표현식 기본 예제
+    │   ├── LamdaSort.cpp              # 람다를 이용한 정렬
+    │   └── LamdaFunctional.cpp        # 람다와 std::function 활용
+    │
+    └── 알고리즘 
+        └── QuickSortSample.cpp        # 퀵 정렬 구현 예제
 ```
 
 ---
